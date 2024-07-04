@@ -4,6 +4,8 @@
 
 Essay Craft is an AI-powered application designed to assist users in crafting insightful essay roadmaps effortlessly. Whether you need to analyze an essay or create a structured roadmap for essay writing, Essay Craft provides powerful tools to streamline your writing process.
 
+[![MINDSB - Essay craft](https://i.sstatic.net/q3ceS.png)](https://youtu.be/v5EXeqmfHRY "MINDSB - Essay craft")
+
 ## Tech Stack 🛠️
 
 Essay Craft is built using the following technologies:
@@ -15,6 +17,7 @@ Essay Craft is built using the following technologies:
 - JavaScript (minimal for frontend interactions) 🖥️
 - JSON (for data storage) 🗃️
 - Mindsdb (for connecting to llm provided by mdb.ai) 🧠
+
 
 ## How to Use 🚀
 
