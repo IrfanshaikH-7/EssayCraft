@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<a href="{{ url_for('essay_roadmaps') }}" class="text-blue-500 hover:underline">&larr; Back to Roadmaps</a>
+<h1 class="text-2xl font-bold mt-4">Roadmap for {{ topic }}</h1>
+<div class="mt-4 p-6 bg-white border border-gray-200 rounded-lg shadow">
+    {% if roadmap %}
+    <p>{{ roadmap|safe  }}</p>
+    {% else %}
+    <p class="text-red-500">Roadmap not found.</p>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <!-- App Name Section -->
+  <section class="bg-gray-100 py-10">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl font-bold">Essay Craft</h1>
+    </div>
+  </section>
+
+  <!-- About the App Section -->
+  <section class="py-10">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-3xl font-bold mb-4">About the App</h2>
+        <p class="text-lg text-gray-700 leading-relaxed">Essay Craft helps you craft insightful essays effortlessly using AI-powered tools. Whether you need to analyze an essay or create a roadmap for essay writing, Essay Craft has you covered.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="bg-gray-100 py-10">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-3xl font-bold mb-6">Features</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
+          <!-- Feature 1: Analyse an Essay -->
+          <div class="p-6 bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
+            <h3 class="text-xl font-semibold mb-4">Analyse an Essay</h3>
+            <p class="text-gray-700 mb-4">Get detailed analysis of your essay's content, structure, and more.</p>
+            <a href="{{ url_for('analyse_essay') }}" class="bg-blue-500 text-white px-6 py-3 rounded-md hover:bg-blue-600 transition-colors duration-300">Analyse Now</a>
+          </div>
+          <!-- Feature 2: Create a Roadmap -->
+          <div class="p-6 bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
+            <h3 class="text-xl font-semibold mb-4">Create a Roadmap for Essay</h3>
+            <p class="text-gray-700 mb-4">Generate a structured roadmap to guide your essay writing process.</p>
+            <a href="{{ url_for('essay_roadmaps') }}" class="bg-green-500 text-white px-6 py-3 rounded-md hover:bg-green-600 transition-colors duration-300">Explore Roadmaps</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-200 text-center py-4">
+    <p class="text-gray-600">Created with ❤️ by <a href="https://github.com/IrfanshaikH-7" class="text-blue-500">irfan-shaikh</a></p>
+  </footer>
+{% endblock %}

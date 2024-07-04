@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 class="text-2xl font-bold">Essay Roadmaps</h1>
+<form method="post" class="mt-4">
+    <input type="text" name="topic" class="w-[200px] p-2 border rounded" placeholder="Enter topic for roadmap">
+    <button type="submit" class="mt-2 bg-blue-500 text-white p-2 rounded">Generate Roadmap</button>
+</form>
+{% if roadmaps %}
+<div class="grid grid-cols-3 gap-4 mt-4">
+    {% for roadmap in roadmaps %}
+    <div class="p-6 bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
+        <h2 class="text-xl font-semibold mb-4">Roadmap for {{ roadmap['topic'] }}</h2>
+        <a href="{{ url_for('view_roadmap', topic=roadmap['topic']) }}" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors duration-300">View Roadmap</a>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+<p class="mt-4">No roadmaps available.</p>
+{% endif %}
+{% endblock %}
