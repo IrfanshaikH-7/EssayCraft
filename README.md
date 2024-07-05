@@ -4,7 +4,7 @@
 
 Essay Craft is an AI-powered application designed to assist users in crafting insightful essay roadmaps effortlessly. Whether you need to analyze an essay or create a structured roadmap for essay writing, Essay Craft provides powerful tools to streamline your writing process.
 
-Check out this YouTube video to see VistaWall in action: [EssayCraft Demo](https://youtu.be/v5EXeqmfHRY)
+Check out this YouTube video to see EssayCraft in action: [EssayCraft Demo](https://youtu.be/v5EXeqmfHRY)
 
 ## Tech Stack 🛠️
 
