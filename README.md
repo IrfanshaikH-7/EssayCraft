@@ -69,6 +69,6 @@ If you find Essay Craft useful, consider giving it a star on GitHub! Your suppor
 
 ## Connect with Me 🌐
 
-- GitHub: [Your GitHub Profile](https://github.com/your-username)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile)
+- GitHub: [Your GitHub Profile](https://github.com/IrfanshaikH-7)
+- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/irfanshaikh-n7)
 # EssayCraft
